@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from './ComponentesEjercicios/Ejercicio2/Main';
+import Footer from './ComponentesEjercicios/Ejercicio2/Footer';
+import { Nav } from './ComponentesEjercicios/Ejercicio2/Nav';
+import Header from './ComponentesEjercicios/Header/index';
+import { useState } from 'react';
+import Main_2 from './ComponentesEjercicios/Ejercicio4';
+import { Routes, Route } from 'react-router-dom';
+import Pagina404 from './ComponentesEjercicios/404'
+
+
 
 function App() {
+  const [currentPath, setPath] = useState(window.location.pathname);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className='divApp'>
+      <Header />
+        <Nav />
+        <Routes>
+          <Route path='/' element={<Main />}/>
+          <Route path='/about' element={<Main_2 />}/>
+          <Route path='*' element={<Pagina404 />}/>
+        </Routes>
+        <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+

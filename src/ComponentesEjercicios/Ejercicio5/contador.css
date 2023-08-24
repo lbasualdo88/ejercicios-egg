@@ -1,0 +1,27 @@
+.divContador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem; 
+    max-height: 50rem;
+    margin: 2rem auto;
+    box-shadow: 0px 5px 15px 2px rgba(112,112,112,0.48);
+    background: linear-gradient(to bottom, #f3f3f3,  #c4c3c9 , #75757d);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.boton-contador {
+    background: #066497;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.span-contador {
+    color: #bc4f70;
+    font-size: 5rem;
+}

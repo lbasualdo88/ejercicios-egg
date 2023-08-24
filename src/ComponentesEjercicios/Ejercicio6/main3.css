@@ -1,0 +1,49 @@
+.div_main3 {
+    background: #ffffff;
+   height: 300px;
+   display: flex;
+}
+.div-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem; 
+    max-height: 20rem;
+    margin: 2rem auto;
+    box-shadow: 0px 5px 15px 2px rgba(112,112,112,0.48);
+    background: linear-gradient(to bottom, #f3f3f3,  #c4c3c9 , #75757d);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.form {
+    margin-left: 2rem;
+}
+.h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #bc4f70,  #6b4664 ,  #184463 ,  #066497,  #0974ab,  #0685cb,  #12a4f1 );
+    padding: 1rem;
+    max-width: 20rem; 
+    max-height: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    margin: 3rem auto;
+    align-self: center;
+    border: none;
+}
+.a:hover {
+    cursor: pointer;
+}
+.div_personajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}

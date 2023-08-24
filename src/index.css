@@ -1,12 +1,24 @@
-body {
+
+html{
+  font-size: 62.5%; /*ayuda a que la medida rem se adapte a distintas pantallas */
+  box-sizing: border-box; /* Hack para box model *//*ayuda a que no se generen conflicto de medidas con el pading*/
+  scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {box-sizing: inherit; } /*ayuda a que no se generen conflicto de medidas con el pading*/
+body{
+  background: linear-gradient(to bottom right, #bc4f70,  #6b4664 ,  #184463 ,  #066497,  #0974ab,  #0685cb,  #12a4f1 );
+  background-repeat: no-repeat;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px; /* 1rem = 10px */ /*ayuda a que la medida rem se adapte a distintas pantallas */
+  
+  
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

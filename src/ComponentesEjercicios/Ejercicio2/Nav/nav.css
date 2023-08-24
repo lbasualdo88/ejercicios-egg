@@ -1,0 +1,15 @@
+.nav {
+    background: transparent;
+    margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+   .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+
+
