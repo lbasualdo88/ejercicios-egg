@@ -16,7 +16,9 @@ const Main = () => {
         }
     }
     return ( 
-    <main className='main'>
+    <main >
+        <div className='main'>
+
         <div className='divMain'>
         <Formulario 
         actualizarId={actualizarId}
@@ -34,6 +36,7 @@ const Main = () => {
         </div>
         </div>
 
+        </div>
         </div>
      </main>
 )}

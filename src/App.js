@@ -12,8 +12,7 @@ import Pagina404 from './ComponentesEjercicios/404'
 function App() {
   const [currentPath, setPath] = useState(window.location.pathname);
 
-  return (
-    
+  return ( 
     <div className='divApp'>
       <Header />
         <Nav />

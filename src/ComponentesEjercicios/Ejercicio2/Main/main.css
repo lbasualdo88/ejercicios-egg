@@ -1,3 +1,9 @@
+.main {
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   position: relative;
+}
 .divMain {
     position: relative;
     background: #ffffff;

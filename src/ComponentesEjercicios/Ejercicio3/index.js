@@ -10,6 +10,7 @@ const Personaje = (props) => {
       fetch(`https://rickandmortyapi.com/api/character/${id}`)
           .then(response => response.json())
           .then(data => setPersonaje(data));
+          
   }, [id]);
       if (!personaje) {
         console.log(personaje)
